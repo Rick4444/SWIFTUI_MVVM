@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import SDWebImageSwiftUI
 
 struct CustomTabBarView: View {
     
@@ -23,9 +24,20 @@ struct CustomTabBarView: View {
                     List() {
                         ForEach(0..<10) { _ in
                             HStack(alignment: .center, spacing: 0) {
-                                Image("placeholder")
+
+                                WebImage(url: URL(string: "https://nokiatech.github.io/heif/content/images/ski_jump_1440x960.heic"))
+                                    .onSuccess { image, data, cacheType in
+                                    }
                                     .resizable()
-                                    .aspectRatio(contentMode: .fit).frame(width: 100, height: 100, alignment: .center)
+                                    .placeholder(Image(systemName: "placeholder"))
+                                    .placeholder {
+                                        Rectangle().foregroundColor(.gray)
+                                    }
+                                    .indicator(.activity)
+                                    .transition(.fade(duration: 0.5))
+                                    .scaledToFit()
+                                    .frame(width: 100, height: 100, alignment: .center)
+                                
                                 VStack(alignment: .leading) {
                                     Text("Vikram").font(.headline)
                                     Divider()

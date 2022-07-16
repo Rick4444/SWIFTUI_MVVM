@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		98296C7F28831FCC002FC20D /* Package.JSON in Resources */ = {isa = PBXBuildFile; fileRef = 98296C7E28831FCC002FC20D /* Package.JSON */; };
+		98296C82288320E1002FC20D /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 98296C81288320E1002FC20D /* SDWebImageSwiftUI */; };
 		98B8246E2882C2D7008B5489 /* GrassDoor_TestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B8246D2882C2D7008B5489 /* GrassDoor_TestApp.swift */; };
 		98B824702882C2D7008B5489 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B8246F2882C2D7008B5489 /* ContentView.swift */; };
 		98B824722882C2DB008B5489 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98B824712882C2DB008B5489 /* Assets.xcassets */; };
@@ -38,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		98296C7E28831FCC002FC20D /* Package.JSON */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Package.JSON; sourceTree = "<group>"; };
 		98B8246A2882C2D7008B5489 /* GrassDoor_Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrassDoor_Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98B8246D2882C2D7008B5489 /* GrassDoor_TestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrassDoor_TestApp.swift; sourceTree = "<group>"; };
 		98B8246F2882C2D7008B5489 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -59,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98296C82288320E1002FC20D /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,6 +114,7 @@
 				98B824732882C2DB008B5489 /* Preview Content */,
 				98B8249E2882C6EC008B5489 /* CustomTabBarView.swift */,
 				98B824A02882EB28008B5489 /* TopRatedDetails.swift */,
+				98296C7E28831FCC002FC20D /* Package.JSON */,
 			);
 			path = GrassDoor_Test;
 			sourceTree = "<group>";
@@ -155,6 +160,9 @@
 			dependencies = (
 			);
 			name = GrassDoor_Test;
+			packageProductDependencies = (
+				98296C81288320E1002FC20D /* SDWebImageSwiftUI */,
+			);
 			productName = GrassDoor_Test;
 			productReference = 98B8246A2882C2D7008B5489 /* GrassDoor_Test.app */;
 			productType = "com.apple.product-type.application";
@@ -227,6 +235,9 @@
 				Base,
 			);
 			mainGroup = 98B824612882C2D7008B5489;
+			packageReferences = (
+				98296C80288320E1002FC20D /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = 98B8246B2882C2D7008B5489 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -245,6 +256,7 @@
 			files = (
 				98B824752882C2DB008B5489 /* Preview Assets.xcassets in Resources */,
 				98B824722882C2DB008B5489 /* Assets.xcassets in Resources */,
+				98296C7F28831FCC002FC20D /* Package.JSON in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -597,6 +609,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		98296C80288320E1002FC20D /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		98296C81288320E1002FC20D /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 98296C80288320E1002FC20D /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		98B824782882C2DB008B5489 /* GrassDoor_Test.xcdatamodeld */ = {
