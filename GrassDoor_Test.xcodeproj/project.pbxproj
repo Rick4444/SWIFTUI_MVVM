@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		98B8246E2882C2D7008B5489 /* GrassDoor_TestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B8246D2882C2D7008B5489 /* GrassDoor_TestApp.swift */; };
+		98B824702882C2D7008B5489 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B8246F2882C2D7008B5489 /* ContentView.swift */; };
+		98B824722882C2DB008B5489 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98B824712882C2DB008B5489 /* Assets.xcassets */; };
+		98B824752882C2DB008B5489 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98B824742882C2DB008B5489 /* Preview Assets.xcassets */; };
+		98B824772882C2DB008B5489 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B824762882C2DB008B5489 /* Persistence.swift */; };
+		98B8247A2882C2DB008B5489 /* GrassDoor_Test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 98B824782882C2DB008B5489 /* GrassDoor_Test.xcdatamodeld */; };
+		98B824842882C2DB008B5489 /* GrassDoor_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B824832882C2DB008B5489 /* GrassDoor_TestTests.swift */; };
+		98B8248E2882C2DB008B5489 /* GrassDoor_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B8248D2882C2DB008B5489 /* GrassDoor_TestUITests.swift */; };
+		98B824902882C2DB008B5489 /* GrassDoor_TestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B8248F2882C2DB008B5489 /* GrassDoor_TestUITestsLaunchTests.swift */; };
+		98B8249F2882C6EC008B5489 /* CustomTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B8249E2882C6EC008B5489 /* CustomTabBarView.swift */; };
+		98B824A12882EB28008B5489 /* TopRatedDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B824A02882EB28008B5489 /* TopRatedDetails.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		98B824802882C2DB008B5489 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98B824622882C2D7008B5489 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98B824692882C2D7008B5489;
+			remoteInfo = GrassDoor_Test;
+		};
+		98B8248A2882C2DB008B5489 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98B824622882C2D7008B5489 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98B824692882C2D7008B5489;
+			remoteInfo = GrassDoor_Test;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		98B8246A2882C2D7008B5489 /* GrassDoor_Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrassDoor_Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		98B8246D2882C2D7008B5489 /* GrassDoor_TestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrassDoor_TestApp.swift; sourceTree = "<group>"; };
+		98B8246F2882C2D7008B5489 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		98B824712882C2DB008B5489 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		98B824742882C2DB008B5489 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		98B824762882C2DB008B5489 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		98B824792882C2DB008B5489 /* GrassDoor_Test.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GrassDoor_Test.xcdatamodel; sourceTree = "<group>"; };
+		98B8247F2882C2DB008B5489 /* GrassDoor_TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrassDoor_TestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		98B824832882C2DB008B5489 /* GrassDoor_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrassDoor_TestTests.swift; sourceTree = "<group>"; };
+		98B824892882C2DB008B5489 /* GrassDoor_TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrassDoor_TestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		98B8248D2882C2DB008B5489 /* GrassDoor_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrassDoor_TestUITests.swift; sourceTree = "<group>"; };
+		98B8248F2882C2DB008B5489 /* GrassDoor_TestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrassDoor_TestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		98B8249E2882C6EC008B5489 /* CustomTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarView.swift; sourceTree = "<group>"; };
+		98B824A02882EB28008B5489 /* TopRatedDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopRatedDetails.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98B824672882C2D7008B5489 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98B8247C2882C2DB008B5489 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98B824862882C2DB008B5489 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		98B824612882C2D7008B5489 = {
+			isa = PBXGroup;
+			children = (
+				98B8246C2882C2D7008B5489 /* GrassDoor_Test */,
+				98B824822882C2DB008B5489 /* GrassDoor_TestTests */,
+				98B8248C2882C2DB008B5489 /* GrassDoor_TestUITests */,
+				98B8246B2882C2D7008B5489 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		98B8246B2882C2D7008B5489 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98B8246A2882C2D7008B5489 /* GrassDoor_Test.app */,
+				98B8247F2882C2DB008B5489 /* GrassDoor_TestTests.xctest */,
+				98B824892882C2DB008B5489 /* GrassDoor_TestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98B8246C2882C2D7008B5489 /* GrassDoor_Test */ = {
+			isa = PBXGroup;
+			children = (
+				98B8246D2882C2D7008B5489 /* GrassDoor_TestApp.swift */,
+				98B8246F2882C2D7008B5489 /* ContentView.swift */,
+				98B824712882C2DB008B5489 /* Assets.xcassets */,
+				98B824762882C2DB008B5489 /* Persistence.swift */,
+				98B824782882C2DB008B5489 /* GrassDoor_Test.xcdatamodeld */,
+				98B824732882C2DB008B5489 /* Preview Content */,
+				98B8249E2882C6EC008B5489 /* CustomTabBarView.swift */,
+				98B824A02882EB28008B5489 /* TopRatedDetails.swift */,
+			);
+			path = GrassDoor_Test;
+			sourceTree = "<group>";
+		};
+		98B824732882C2DB008B5489 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				98B824742882C2DB008B5489 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		98B824822882C2DB008B5489 /* GrassDoor_TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				98B824832882C2DB008B5489 /* GrassDoor_TestTests.swift */,
+			);
+			path = GrassDoor_TestTests;
+			sourceTree = "<group>";
+		};
+		98B8248C2882C2DB008B5489 /* GrassDoor_TestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				98B8248D2882C2DB008B5489 /* GrassDoor_TestUITests.swift */,
+				98B8248F2882C2DB008B5489 /* GrassDoor_TestUITestsLaunchTests.swift */,
+			);
+			path = GrassDoor_TestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98B824692882C2D7008B5489 /* GrassDoor_Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98B824932882C2DB008B5489 /* Build configuration list for PBXNativeTarget "GrassDoor_Test" */;
+			buildPhases = (
+				98B824662882C2D7008B5489 /* Sources */,
+				98B824672882C2D7008B5489 /* Frameworks */,
+				98B824682882C2D7008B5489 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GrassDoor_Test;
+			productName = GrassDoor_Test;
+			productReference = 98B8246A2882C2D7008B5489 /* GrassDoor_Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		98B8247E2882C2DB008B5489 /* GrassDoor_TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98B824962882C2DB008B5489 /* Build configuration list for PBXNativeTarget "GrassDoor_TestTests" */;
+			buildPhases = (
+				98B8247B2882C2DB008B5489 /* Sources */,
+				98B8247C2882C2DB008B5489 /* Frameworks */,
+				98B8247D2882C2DB008B5489 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98B824812882C2DB008B5489 /* PBXTargetDependency */,
+			);
+			name = GrassDoor_TestTests;
+			productName = GrassDoor_TestTests;
+			productReference = 98B8247F2882C2DB008B5489 /* GrassDoor_TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		98B824882882C2DB008B5489 /* GrassDoor_TestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98B824992882C2DB008B5489 /* Build configuration list for PBXNativeTarget "GrassDoor_TestUITests" */;
+			buildPhases = (
+				98B824852882C2DB008B5489 /* Sources */,
+				98B824862882C2DB008B5489 /* Frameworks */,
+				98B824872882C2DB008B5489 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98B8248B2882C2DB008B5489 /* PBXTargetDependency */,
+			);
+			name = GrassDoor_TestUITests;
+			productName = GrassDoor_TestUITests;
+			productReference = 98B824892882C2DB008B5489 /* GrassDoor_TestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98B824622882C2D7008B5489 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					98B824692882C2D7008B5489 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					98B8247E2882C2DB008B5489 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 98B824692882C2D7008B5489;
+					};
+					98B824882882C2DB008B5489 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 98B824692882C2D7008B5489;
+					};
+				};
+			};
+			buildConfigurationList = 98B824652882C2D7008B5489 /* Build configuration list for PBXProject "GrassDoor_Test" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 98B824612882C2D7008B5489;
+			productRefGroup = 98B8246B2882C2D7008B5489 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98B824692882C2D7008B5489 /* GrassDoor_Test */,
+				98B8247E2882C2DB008B5489 /* GrassDoor_TestTests */,
+				98B824882882C2DB008B5489 /* GrassDoor_TestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98B824682882C2D7008B5489 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98B824752882C2DB008B5489 /* Preview Assets.xcassets in Resources */,
+				98B824722882C2DB008B5489 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98B8247D2882C2DB008B5489 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98B824872882C2DB008B5489 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98B824662882C2D7008B5489 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98B824772882C2DB008B5489 /* Persistence.swift in Sources */,
+				98B824A12882EB28008B5489 /* TopRatedDetails.swift in Sources */,
+				98B8249F2882C6EC008B5489 /* CustomTabBarView.swift in Sources */,
+				98B824702882C2D7008B5489 /* ContentView.swift in Sources */,
+				98B8247A2882C2DB008B5489 /* GrassDoor_Test.xcdatamodeld in Sources */,
+				98B8246E2882C2D7008B5489 /* GrassDoor_TestApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98B8247B2882C2DB008B5489 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98B824842882C2DB008B5489 /* GrassDoor_TestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98B824852882C2DB008B5489 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98B8248E2882C2DB008B5489 /* GrassDoor_TestUITests.swift in Sources */,
+				98B824902882C2DB008B5489 /* GrassDoor_TestUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		98B824812882C2DB008B5489 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98B824692882C2D7008B5489 /* GrassDoor_Test */;
+			targetProxy = 98B824802882C2DB008B5489 /* PBXContainerItemProxy */;
+		};
+		98B8248B2882C2DB008B5489 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98B824692882C2D7008B5489 /* GrassDoor_Test */;
+			targetProxy = 98B8248A2882C2DB008B5489 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		98B824912882C2DB008B5489 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		98B824922882C2DB008B5489 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		98B824942882C2DB008B5489 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GrassDoor_Test/Preview Content\"";
+				DEVELOPMENT_TEAM = BR46XMMX6G;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Rameshwar-Gupta.GrassDoor-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		98B824952882C2DB008B5489 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GrassDoor_Test/Preview Content\"";
+				DEVELOPMENT_TEAM = BR46XMMX6G;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Rameshwar-Gupta.GrassDoor-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		98B824972882C2DB008B5489 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Rameshwar-Gupta.GrassDoor-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GrassDoor_Test.app/GrassDoor_Test";
+			};
+			name = Debug;
+		};
+		98B824982882C2DB008B5489 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Rameshwar-Gupta.GrassDoor-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GrassDoor_Test.app/GrassDoor_Test";
+			};
+			name = Release;
+		};
+		98B8249A2882C2DB008B5489 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Rameshwar-Gupta.GrassDoor-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GrassDoor_Test;
+			};
+			name = Debug;
+		};
+		98B8249B2882C2DB008B5489 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Rameshwar-Gupta.GrassDoor-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GrassDoor_Test;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		98B824652882C2D7008B5489 /* Build configuration list for PBXProject "GrassDoor_Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98B824912882C2DB008B5489 /* Debug */,
+				98B824922882C2DB008B5489 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98B824932882C2DB008B5489 /* Build configuration list for PBXNativeTarget "GrassDoor_Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98B824942882C2DB008B5489 /* Debug */,
+				98B824952882C2DB008B5489 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98B824962882C2DB008B5489 /* Build configuration list for PBXNativeTarget "GrassDoor_TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98B824972882C2DB008B5489 /* Debug */,
+				98B824982882C2DB008B5489 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98B824992882C2DB008B5489 /* Build configuration list for PBXNativeTarget "GrassDoor_TestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98B8249A2882C2DB008B5489 /* Debug */,
+				98B8249B2882C2DB008B5489 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		98B824782882C2DB008B5489 /* GrassDoor_Test.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				98B824792882C2DB008B5489 /* GrassDoor_Test.xcdatamodel */,
+			);
+			currentVersion = 98B824792882C2DB008B5489 /* GrassDoor_Test.xcdatamodel */;
+			path = GrassDoor_Test.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 98B824622882C2D7008B5489 /* Project object */;
+}
